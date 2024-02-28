@@ -1,0 +1,23 @@
+html {
+  font-size: 62.5%;
+}
+
+
+body {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container img {
+  height: auto;
+  width: 3rem;
+}
+.container p {
+  text-align: center;
+}
