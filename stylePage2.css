@@ -39,3 +39,42 @@ header {
   justify-content: space-between;
   margin-left: 30px;
 }
+
+main {
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 43px;
+  margin: 20px;
+  margin-bottom: 0;
+  margin-top: 0;
+  line-height: 40px;
+  padding: 0;
+}
+
+.bigletter {
+  margin-left: 20px;
+  text-transform: uppercase;
+  padding: 0;
+  font-size: 50px;
+  line-height: 40px;
+}
+
+.dono {
+  border: solid;
+  text-align: justify;
+  font-size: 4.3vw;
+  max-width: 30%;
+  max-height: auto;
+  display: block;
+  justify-content: center;
+}
+
+.dono::after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+}
