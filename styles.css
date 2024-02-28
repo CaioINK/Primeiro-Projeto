@@ -1,11 +1,64 @@
-.container {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+
+html {
+  font: 400 62.5% 'Inter', sans-serif;
 }
 
-.container div {
-  flex: 1 0 300px;
-  text-align: center;
-  margin: 10px;
+body {
+  background-image: url(assets/images/background.png);
+  background-size: cover,contain;
+  color: rgb(209, 209, 209);
 }
+
+h1 {
+  font-size: 34px;
+}
+
+p {
+  margin-top: 0;
+}
+
+.dna {
+  text-align: left;
+  color: #ff9900;
+}
+
+.container {
+  padding-top: 10rem;
+  max-width: 127.6rem;
+  margin: auto;
+}
+
+
+.cardcontainer {
+    display: flex;
+    flex-wrap: wrap; /* Adicionado para permitir que os itens se movam para a próxima linha quando não houver espaço suficiente */
+    text-align: left;
+    gap: 2rem;
+}
+
+.curso_card {
+  flex: 1;
+}
+
+.curso_card img {
+  display: block;
+  width: 100%;
+}
+
+.curso_card p {
+  font-size: 1.8rem;
+  line-height: 1.5;
+}
+
+.cursos_card_content {
+  padding: 1rem 1.25rem;
+  text-align: center;
+}
+
+span {
+  color: #ff9900;
+}
+
+img {
+  width: auto;
+} 
