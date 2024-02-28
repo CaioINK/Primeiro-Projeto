@@ -1,6 +1,5 @@
-
 html {
-  font: 400 62.5% 'Inter', sans-serif;
+  font: 400 62.5% "Inter", sans-serif;
   color: rgb(209, 209, 209);
 }
 
@@ -28,24 +27,29 @@ span {
 }
 
 .container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
   padding-top: 10em;
-  width: 127.6em;
+  width: 80%;
   margin: auto;
 }
 
-.cardcontainer {
+.itemcontainer {
   display: flex;
+  flex-wrap: wrap;
   text-align: center;
   gap: 2rem;
   font-size: 1.8rem;
   line-height: 1.5;
 }
 
-.card {
-  flex: 1;
+.item {
+  flex: 1 1 300px;
+  margin: 10px;
 }
 
-img {
-  display: flex;
-  width: 100%;
+.item img {
+  max-width: 50%;
+  height: auto;
 }
