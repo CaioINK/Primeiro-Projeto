@@ -1,12 +1,12 @@
 html {
-  font: 400 80.5% "Inter", sans-serif;
+  font: 400 62.5% "Inter", sans-serif;
+  color: rgb(209, 209, 209);
 }
 
 body {
   background-image: url(assets/images/background.png);
   background-size: cover, contain;
   overflow-x: hidden;
-  color: rgb(209, 209, 209);
 }
 
 h1 {
@@ -28,6 +28,13 @@ span {
 .dna {
   color: #ff9900;
   margin-left: 0px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 80%;
 }
 
 .itemcontainer {
