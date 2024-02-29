@@ -1,0 +1,243 @@
+:root {
+  --bs-primary: #000000; /* verde */
+  --letter-color: #e9962d;
+}
+.navbar-toggler {
+  border-color: #e9962d;
+}
+.light {
+  color: white;
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg' width='30' height='30'%3e%3cpath stroke='%23e9962d' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.navbar-toggler.active .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg' width='30' height='30'%3e%3cpath stroke='%23e9962d' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M2 2l26 26M2 28L28 2'/%3e%3c/svg%3e");
+}
+.custom-navbar {
+  background-color: var(--bs-primary) !important;
+}
+.letter-color {
+  color: var(--letter-color) !important;
+}
+.button-style {
+  background-color: var(--letter-color);
+  color: white;
+  border-radius: 20px;
+  padding-inline: 1.5rem;
+}
+.navbar-img {
+  max-width: 15rem;
+}
+.custom-navbar {
+  align-items: center;
+}
+.bg-section-1 {
+  background-image: url("../assets/bg-section-1.png"); /* Substitua 'caminho/para/sua/imagem1.jpg' pelo caminho correto da sua imagem */
+  background-size: cover; /* Ajusta o tamanho da imagem para cobrir todo o elemento */
+  background-position: center; /* Centraliza a imagem dentro do elemento */
+  height: 56vh; /* Altura da seção igual à altura da viewport */
+}
+.bg-section-1-img {
+  width: 100%;
+  height: 56vh;
+}
+.section-1-main-text {
+  color: white !important;
+  font-weight: bold;
+}
+.spam-main-text {
+  background-color: #e9962d;
+  border-radius: 30px;
+  padding: 0.1vw;
+}
+.section-1-text {
+  color: #e9962d !important;
+}
+.wifi-color {
+  color: white !important;
+}
+.bg-section-2 {
+  background-image: url("../assets/bg-section-2.png"); /* Substitua 'caminho/para/sua/imagem1.jpg' pelo caminho correto da sua imagem */
+  background-size: cover; /* Ajusta o tamanho da imagem para cobrir todo o elemento */
+  background-position: center; /* Centraliza a imagem dentro do elemento */
+  height: 100vh; /* Altura da seção igual à altura da viewport */
+}
+.social-icons a {
+  margin-right: 15px;
+  color: white;
+  font-size: 2.5rem;
+  align-items: center;
+}
+.social-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.social-icons a {
+  margin: 5px; /* Adiciona espaço entre os ícones */
+}
+.social-icons i {
+  font-size: 40px; /* Ajusta o tamanho dos ícones */
+}
+.icon-whatsapp {
+  margin-top: 20px;
+  color: #46cc6b; /* Adiciona margem superior para separar o ícone do WhatsApp */
+}
+
+@media (max-width: 768px) {
+  .social-icons i {
+    font-size: 30px; /* Reduz o tamanho dos ícones em telas menores */
+  }
+}
+
+/* MEIO */
+
+body {
+  background-image: url("./assets/background.png");
+  background-size: cover, contain;
+  overflow-x: hidden;
+}
+
+body h1 {
+  color: white;
+  margin-left: 7rem;
+  text-wrap: wrap;
+  font-size: 3rem;
+  margin-top: 0.625rem;
+  margin-bottom: 2.5rem;
+  font-family: "Montserrat", sans-serif;
+}
+span {
+  color: #e9962d;
+}
+
+/* oi */
+
+.cards {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  align-content: center;
+}
+
+.column.left {
+  display: flex;
+  flex-direction: column;
+}
+
+.lider {
+  text-transform: uppercase;
+  font-size: 30px;
+  margin: 20px;
+  margin-bottom: 0;
+  margin-top: 0;
+  line-height: 32px;
+  padding: 0;
+  color: white;
+}
+
+.bigletter {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 20px;
+  margin-left: 10px;
+  text-transform: uppercase;
+  padding: 0;
+  font-size: 130px;
+  line-height: 100px;
+  letter-spacing: -8px;
+  color: white;
+}
+
+.letter {
+  color: #e9962d;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  margin-left: 15px;
+  font-size: 40px;
+}
+
+.letter-contatos {
+  color: white;
+  text-transform: uppercase;
+  font-size: 25px;
+  margin: 10px 15px;
+}
+
+.whatsapp {
+  display: flex;
+}
+
+.whatsapp img {
+  padding-left: 5px;
+  height: 2%;
+  width: 30px;
+}
+
+/* div img {
+  display: flex;
+  width: 30px;
+} */
+
+.button {
+  margin-left: 20px;
+  margin-top: 50px;
+  text-decoration: none;
+  border-radius: 50px;
+  padding: 15px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e9962d;
+  color: white;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.checkboxs li {
+  font-size: 22px;
+  margin-bottom: 120px;
+  color: white;
+  margin-bottom: 40px;
+  display: flex;
+}
+.checkboxs img {
+  display: flex;
+  width: 30px;
+}
+
+.fature {
+  color: white;
+  initial-letter-align: -8%;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 60px;
+  font-weight: 600;
+  text-align: center;
+  margin: 0; /* Adicione esta linha para remover a margem */
+}
+
+/* 
+font-family: "Montserrat", sans-serif;
+margin-top: 20px;
+margin-left: 10px;
+text-transform: uppercase;
+padding: 0;
+font-size: 130px;
+line-height: 100px;
+letter-spacing: -8px;
+color: white; */
+
+.homemimg {
+  max-width: 70%;
+  max-height: 70%;
+  position: absolute;
+  right: 0;
+  bottom: -8.5%;
+    z-index: -1;
+}
