@@ -22,6 +22,7 @@ h1 {
 
 p {
   margin-top: 0;
+  font-size: 30px;
 }
 
 span {
@@ -43,9 +44,10 @@ span {
   font-size: 22px;
   line-height: 1.5;
   margin: 10px;
+  
 }
 
 .item img {
-  max-width: 70%;
+  max-width: 100%;
   height: auto;
 }
