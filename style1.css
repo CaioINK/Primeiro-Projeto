@@ -2,6 +2,8 @@ html {
   font: 400 80.5% "Inter", sans-serif;
 }
 
+
+
 body {
   background-image: url(assets/images/background.png);
   background-size: cover, contain;
@@ -11,6 +13,8 @@ body {
 
 h1 {
   font-size: 40px;
+  margin-left: 150px;
+  text-wrap: wrap;
   margin-top: 68px;
   margin-bottom: 190px;
   font-family: "Montserrat", sans-serif;
@@ -44,12 +48,4 @@ span {
 .item img {
   max-width: 70%;
   height: auto;
-}
-
-.texto {
-  font-family: "Montserrat", sans-serif;
-  font-size: 40px;
-  display: flex;
-  gap: 10px;
-  flex-wrap: wrap;
 }
