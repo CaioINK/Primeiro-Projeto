@@ -1,8 +1,3 @@
-:root {
-  --bs-primary: #000000; /* verde */
-  --letter-color: #e9962d;
-}
-
 html {
   font: 400 62.5% "Inter", sans-serif;
   color: rgb(209, 209, 209);
@@ -14,20 +9,15 @@ html {
 .light {
   color: white;
 }
-.navbar-toggler-icon {
-  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg' width='30' height='30'%3e%3cpath stroke='%23e9962d' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-}
-.navbar-toggler.active .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg' width='30' height='30'%3e%3cpath stroke='%23e9962d' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M2 2l26 26M2 28L28 2'/%3e%3c/svg%3e");
-}
+
 .custom-navbar {
-  background-color: var(--bs-primary) !important;
+  background-color: #000000;
 }
 .letter-color {
-  color: var(--letter-color) !important;
+  color: #e9962d;
 }
 .button-style {
-  background-color: var(--letter-color);
+  background-color: #e9962d;
   color: white;
   border-radius: 20px;
   padding-inline: 1.5rem;
