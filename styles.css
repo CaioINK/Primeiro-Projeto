@@ -11,6 +11,7 @@ body {
 
 h1 {
   font-size: 40px;
+  margin-left: -30px;
   margin-top: 68px;
   margin-bottom: 190px;
   font-family: "Montserrat", sans-serif;
@@ -29,20 +30,22 @@ span {
   margin-left: 0px;
 }
 
-/*.item {
-  flex: 1 1 300px;
-} */
-
-.item {
+.itemcontainer {
+  display: flex;
+  flex-wrap: wrap;
   text-align: center;
   gap: 2rem;
-  font-size: 22px;
+  font-size: 1.8rem;
   line-height: 1.5;
+}
+
+.item {
+  flex: 1 1 300px;
   margin: 10px;
 }
 
 .item img {
-  max-width: 70%;
+  max-width: 50%;
   height: auto;
 }
 
