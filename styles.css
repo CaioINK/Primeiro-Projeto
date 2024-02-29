@@ -10,8 +10,11 @@ body {
 }
 
 h1 {
-  font-size: 3.4rem;
-  margin-bottom: 100px;
+  font-size: 40px;
+  margin-left: -30px;
+  margin-top: 68px;
+  margin-bottom: 190px;
+  font-family: "Montserrat", sans-serif;
 }
 
 p {
@@ -23,17 +26,15 @@ span {
 }
 
 .dna {
-  text-align: left;
   color: #ff9900;
+  margin-left: 0px;
 }
 
 .container {
   display: flex;
   flex-wrap: wrap;
   margin: auto;
-  padding-top: 10em;
   width: 80%;
-  margin: auto;
 }
 
 .itemcontainer {
@@ -53,4 +54,12 @@ span {
 .item img {
   max-width: 50%;
   height: auto;
+}
+
+.texto {
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
 }
