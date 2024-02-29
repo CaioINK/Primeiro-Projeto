@@ -1,3 +1,8 @@
+:root {
+  --bs-primary: #000000; /* verde */
+  --letter-color: #e9962d;
+}
+
 html {
   font: 400 62.5% "Inter", sans-serif;
   color: rgb(209, 209, 209);
