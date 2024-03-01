@@ -115,6 +115,7 @@ span {
 /* oi */
 
 .cards {
+  gap: 290px;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
@@ -178,10 +179,6 @@ span {
   width: 30px;
 }
 
-/* div img {
-  display: flex;
-  width: 30px;
-} */
 
 .button {
   margin-left: 20px;
@@ -200,7 +197,7 @@ span {
 }
 
 .checkboxs li {
-  font-size: 22px;
+  font-size: 25px;
   margin-bottom: 120px;
   color: white;
   margin-bottom: 40px;
@@ -209,9 +206,11 @@ span {
 .checkboxs img {
   display: flex;
   width: 30px;
+  height: 2%;
 }
 
 .fature {
+  line-height: 50px;
   color: white;
   initial-letter-align: -8%;
   padding: 0;
@@ -240,4 +239,8 @@ color: white; */
   right: 0;
   bottom: -8.5%;
     z-index: -1;
+}
+
+.faturetop {
+  margin-top: 150px;
 }
